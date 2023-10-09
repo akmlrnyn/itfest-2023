@@ -1,3 +1,8 @@
 @tailwind base;
 @taiwind component;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'matter';
+    src: url('../src/fonts/Matter-Regular.ttf');
+}
