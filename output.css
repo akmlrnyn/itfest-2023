@@ -661,6 +661,10 @@ video {
   max-width: 1280px;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
