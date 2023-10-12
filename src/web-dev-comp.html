@@ -15,6 +15,10 @@
         </style>
         <!-- End Internal style -->
 
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <!-- End AOS -->
+
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -52,7 +56,7 @@
                             <a href="index.html" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-162236 md:hover:bg-transparent md:p-0 md:hover:text-blue">ABOUT</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pl-3 pr-4 text-blue underline rounded hover:bg-162236 md:hover:bg-transparent md:p-0 md:hover:text-blue">EVENT</a>
+                            <a href="index.html#competitionList" class="block py-2 pl-3 pr-4 text-blue underline rounded hover:bg-162236 md:hover:bg-transparent md:p-0 md:hover:text-blue">EVENT</a>
                         </li>
                         <li>
                             <a href="#timeline" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-162236 md:hover:bg-transparent md:p-0 md:hover:text-blue">TIMELINE</a>
@@ -99,27 +103,24 @@
         <!-- Reward list -->
         <h2 class="font-bold text-4xl text-center mt-32">Rewarding</h2>
         <div class="flex flex-col gap-10 md:flex-row justify-evenly mt-16">
-            <div class="relative md:order-2 py-5 px-5">
-                <div class="bg-gradient-to-b from-transparent to-[#FACB0D] absolute inset-0 rounded-lg blur-xl opacity-60"></div>
-                <div class="flex flex-col items-center relative">
+            <div data-aos="fade-up" data-aos-duration="1000" class="md:order-2 py-5 px-5">
+                <div class="flex flex-col items-center">
                     <img src="./img/juara1.svg" class="w-64" />
                     <h3 class="font-bold text-lg mt-4">1st Place</h3>
                     <p class="text-lg">Rp. 3.000.000</p>
                 </div>
             </div>
 
-            <div class="relative md:order-1 py-5 px-5">
-                <div class="bg-gradient-to-b from-transparent to-[#D9D9D9] absolute inset-0 rounded-lg blur-xl opacity-60"></div>
-                <div class="flex flex-col items-center relative">
+            <div data-aos="fade-up" data-aos-duration="1000" class="md:order-1 py-5 px-5">
+                <div class="flex flex-col items-center">
                     <img src="./img/juara2.svg" class="w-64 md:mt-32" />
                     <h3 class="font-bold text-lg mt-4">2nd Place</h3>
                     <p class="text-lg">Rp. 2.000.000</p>
                 </div>
             </div>
 
-            <div class="relative md:order-3 py-5 px-5">
-                <div class="bg-gradient-to-b from-transparent to-[#B05F00] absolute inset-0 rounded-lg blur-xl opacity-60"></div>
-                <div class="flex flex-col items-center relative">
+            <div data-aos="fade-up" data-aos-duration="1000" class="md:order-3 py-5 px-5">
+                <div class="flex flex-col items-center">
                     <img src="./img/juara3.svg" class="w-64 md:mt-32" />
                     <h3 class="font-bold text-lg mt-4">3rd Place</h3>
                     <p class="text-lg">Rp. 1.000.000</p>
@@ -167,7 +168,7 @@
                 <div class="flex flex-col">
                     <div class="flex flex-col md:flex-row gap-10">
                         <a href="index.html">About</a>
-                        <a href="">Event</a>
+                        <a href="index.html#competitionList">Event</a>
                         <a href="#timeline">Timeline</a>
                         <a href="#contact">Contact</a>
                         <a href="">Registration</a>
@@ -193,8 +194,13 @@
             </div>
         </footer>
 
+        <!-- End Of Footer -->
         <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
 
-        <!-- End Of Footer -->
+        <!-- CDN AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
