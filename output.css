@@ -1346,10 +1346,6 @@ input:checked + .toggle-bg {
   width: 16rem;
 }
 
-.w-72 {
-  width: 18rem;
-}
-
 .w-80 {
   width: 20rem;
 }
@@ -1382,6 +1378,10 @@ input:checked + .toggle-bg {
   width: 286px;
 }
 
+.w-\[30rem\] {
+  width: 30rem;
+}
+
 .w-\[527px\] {
   width: 527px;
 }
@@ -1396,54 +1396,6 @@ input:checked + .toggle-bg {
 
 .w-full {
   width: 100%;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
-.w-\[22rem\] {
-  width: 22rem;
-}
-
-.w-\[23rem\] {
-  width: 23rem;
-}
-
-.w-\[10rem\] {
-  width: 10rem;
-}
-
-.w-\[rem\] {
-  width: rem;
-}
-
-.w-\[21rem\] {
-  width: 21rem;
-}
-
-.w-\[24rem\] {
-  width: 24rem;
-}
-
-.w-\[34rem\] {
-  width: 34rem;
-}
-
-.w-\[25rem\] {
-  width: 25rem;
-}
-
-.w-\[27rem\] {
-  width: 27rem;
-}
-
-.w-\[28rem\] {
-  width: 28rem;
-}
-
-.w-\[30rem\] {
-  width: 30rem;
 }
 
 .max-w-screen-xl {
@@ -1572,16 +1524,16 @@ input:checked + .toggle-bg {
   gap: 4rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1771,11 +1723,6 @@ input:checked + .toggle-bg {
   padding-right: 0.5rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -1784,6 +1731,11 @@ input:checked + .toggle-bg {
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-2 {
@@ -2054,12 +2006,6 @@ input:checked + .toggle-bg {
   font-family: 'matter';
 
   src: url('../src/fonts/Matter-Regular.ttf');
-}
-
-.hover\:scale-50:hover {
-  --tw-scale-x: .5;
-  --tw-scale-y: .5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:border-gray-300:hover {
