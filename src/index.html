@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IT FEST 2023</title>
     <link rel="stylesheet" href="/output.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
                 <img src="./img/logo-it-fest.svg" class="h-10 mr-3" alt="IT FEST Logo" />
             </a>
             <div class="flex md:order-2">
-                <a href="" type="button"
+                <a href="https://linktr.ee/idn.itfest2022" type="button"
                     class="text-white bg-green hover:opacity-80 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0">Register</a>
             </div>
 
@@ -27,11 +28,11 @@
                 <ul
                     class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
-                        <a href="index.html"
+                        <a href="#hero"
                             class="block py-2 pl-3 pr-4 text-white rounded hover:bg-162236 md:hover:bg-transparent md:p-0 md:hover:text-blue">ABOUT</a>
                     </li>
                     <li>
-                        <a href="#"
+                        <a href="#competitionList"
                             class="block py-2 pl-3 pr-4 text-white rounded hover:bg-162236 md:hover:bg-transparent md:p-0 md:hover:text-blue">EVENT</a>
                     </li>
                     <li>
@@ -39,7 +40,7 @@
                             class="block py-2 pl-3 pr-4 text-white rounded hover:bg-162236 md:hover:bg-transparent md:p-0 md:hover:text-blue">TIMELINE</a>
                     </li>
                     <li>
-                        <a href="#contact"
+                        <a href="#contactPerson"
                             class="block py-2 pl-3 pr-4 text-white rounded hover:bg-162236 md:hover:bg-transparent md:p-0 md:hover:text-blue">CONTACT</a>
                     </li>
                 </ul>
@@ -62,7 +63,8 @@
                     <div class="flex justify-center">
                         <button type="button"
                             class="text-white bg-[#13AF6B] font-medium rounded-lg text-sm lg:w-[242px] lg:h-[67px] w-[150px] h-[30px] hover:opacity-80">
-                            <p class="font-bold text-white lg:text-2xl sm:text-xl ">Register Now</p>
+                            <a href="https://linktr.ee/idn.itfest2022"
+                                class="font-bold text-white lg:text-2xl sm:text-xl ">Register Now</a>
                         </button>
                     </div>
                 </div>
@@ -78,26 +80,26 @@
     <section id="competitionList" class="w-screen lg:h-[700px] h-[1034px] bg-[#162236]">
 
         <div class="relative">
-            <div class="">
-                <div class="flex justify-end">
-                    <div class="">
-                        <img src="/src/img/rectangle-pixel-compt.svg" alt="" class="w-[86px] h-[73px]">
+                <div class="">
+                    <div class="flex justify-end">
+                        <div class="">
+                            <img src="/src/img/rectangle-pixel-compt.svg" alt="" class="w-[86px] h-[73px]">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="lg:absolute lg:top-[60px] lg:left-[610px]">
-                <div class="flex justify-center">
-                    <div class="">
-                        <p class="lg:text-4xl text-xl font-bold text-white">Our Competitions</p>
+                <div class="lg:absolute lg:top-[60px] lg:left-[610px]">
+                    <div class="flex justify-center">
+                        <div class="">
+                            <p class="lg:text-4xl text-xl font-bold text-white">Our Competitions</p>
+                        </div>
                     </div>
                 </div>
-            </div>
         </div>
 
         <div class="relative h-[476px]">
             <div class="lg:flex lg:justify-evenly sm:block mt-[46px] sm:space-y-[48px]">
                 <div class="lg:mt-[59px] mt-0">
-                    <a href="">
+                    <a href="/src/web-dev-comp.html">
                         <div class="flex justify-center">
                             <img src="/src/img/web-dev-logo.png" alt=""
                                 class="lg:w-[286px] lg:h-[286px] w-[169px] h-[170px]">
@@ -110,7 +112,7 @@
                     </a>
                 </div>
                 <div class="mt-[46px] lg:mt-0">
-                    <a href="">
+                    <a href="/src/ui-ux-comp.html">
                         <div class="flex justify-center">
                             <img src="/src/img/ui-ux-logo.svg" alt=""
                                 class="lg:w-[286px] lg:h-[286px] w-[169px] h-[170px]">
@@ -147,26 +149,31 @@
 
     <!-- Motto Starts -->
 
-    <section id="motto" class="lg:h-[100vh] h-[550px] w-screen bg-[#0D1727]">
+    <section id="motto" class="lg:h-[80vh] h-[550px] w-screen bg-[#0D1727]">
 
-        <div class="pt-[80px] lg:pt-[80px] pl-[29px] lg:pl-[159px]">
+        <div class="pt-[80px] lg:pt-[80px] pl-[24px] flex justify-center">
             <div class="">
-                <p class="lg:text-[40px] text-xl text-white font-bold lg:w-[904px] w-[331px]">Embrace The Future with
-                </p>
-                <p class="lg:text-[40px] text-xl text-white font-bold lg:w-[904px] w-[331px] mt-0 lg:mt-[20px]">
-                    Technology & Creativity to Face Digital Era</p>
-            </div>
+                <div class="">
+                    <p class="lg:text-[40px] text-xl text-white font-bold lg:w-[904px] w-[331px]">Embrace The Future
+                        with
+                    </p>
+                    <p class="lg:text-[40px] text-xl text-white font-bold lg:w-[904px] w-[331px] mt-0 lg:mt-[20px]">
+                        Technology & Creativity to Face Digital Era</p>
+                </div>
 
-            <div class="mt-[45px]">
-                <p
-                    class="font-normal lg:text-[32px] text-[13px] text-white lg:w-[1112px] w-[331px] lg:h-[310px] sm:h-[180px] text-justify lg:leading-[45.18px] lg:tracking-wide">
-                    Landasan awal tercipta nya motto ini adalah bagaimana kita melihat di jaman sekarang bahwa teknologi
-                    sudah menyatu dalam diri kita dan era digital yang begitu cepat melewati kita dengan begitu kita
-                    harus
-                    bisa ber-adaptasi dengan hal tersebut, kreativitas adalah salah satu kunci untuk menghadapinya,
-                    dengan
-                    menciptakan inovasi yang dapat membantu permasalahan lewat inovasi digital dan kita butuh teknologi
-                    sebagai hal yang akan membuat itu menjadi kenyataan.</p>
+                <div class="mt-[45px]">
+                    <p
+                        class="font-normal lg:text-[32px] text-[13px] text-white lg:w-[1112px] w-[331px] lg:h-[310px] sm:h-[180px] text-justify lg:leading-[45.18px] lg:tracking-wide">
+                        Landasan awal tercipta nya motto ini adalah bagaimana kita melihat di jaman sekarang bahwa
+                        teknologi
+                        sudah menyatu dalam diri kita dan era digital yang begitu cepat melewati kita dengan begitu kita
+                        harus
+                        bisa ber-adaptasi dengan hal tersebut, kreativitas adalah salah satu kunci untuk menghadapinya,
+                        dengan
+                        menciptakan inovasi yang dapat membantu permasalahan lewat inovasi digital dan kita butuh
+                        teknologi
+                        sebagai hal yang akan membuat itu menjadi kenyataan.</p>
+                </div>
             </div>
         </div>
 
@@ -176,175 +183,38 @@
 
     <!-- Timeline Starts -->
 
-    <!-- <section id="timeline" class="h-[100vh] w-screen bg-[#162236]">
+    <section id="timeline" class="lg:h-[100vh] h-[130vh] md:h-[75vh] w-screen bg-[#162236]">
 
         <div class="pt-[65px] ps-[127px]">
             <p class="text-4xl font-bold text-white">Timeline</p>
         </div>
 
-        <div class="flex space-x-[124px] lg:ms-[156px]">
+        <div class="lg:ms-[156px]  mt-[121px]">
 
-            <div class="pt-[81px] lg:w-[232px]">
-                <div class="">
-                    <div class="flex justify-center">
-                        <p class="text-white text-2xl font-semibold">Pendaftaran</p>
-                    </div>
-                </div>
-                <div class="lg:w-[235px] lg:h-[87px] banner-sm flex justify-center items-center my-[15px]"
-                    style="background-image: url(/src/img/banner-succesful.png);">
-                    <div class="">
-                        <p class="text-2xl font-normal text-white">Passed!</p>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="flex justify-center">
-                        <p class="text-white text-base font-normal">10 Juni - 1 Agustus 2021</p>
-                    </div>
-                </div>
+            <div class="hidden md:block lg:block">
+                <img src="/src/img/fixed-timeline.png" alt="">
             </div>
 
-            <div class="pt-[81px] lg:w-[232px]">
-                <div class="">
-                    <div class="flex justify-center">
-                        <p class="text-white text-2xl font-semibold">Technical Meeting</p>
-                    </div>
-                </div>
-                <div class="lg:w-[235px] lg:h-[87px] banner-sm flex justify-center items-center my-[15px]"
-                    style="background-image: url(/src/img/banner.svg);">
-                    <div class="">
-                        <p class="text-2xl font-normal text-white">3 Days to go</p>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="flex justify-center">
-                        <p class="text-white text-base font-normal">10 Juni - 1 Agustus 2021</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pt-[81px] lg:w-[232px]">
-                <div class="">
-                    <div class="flex justify-center">
-                        <p class="text-white text-2xl font-semibold">Tahap Final</p>
-                    </div>
-                </div>
-                <div class="lg:w-[235px] lg:h-[87px] banner-sm flex justify-center items-center my-[15px]"
-                    style="background-image: url(/src/img/banner.svg);">
-                    <div class="">
-                        <p class="text-2xl font-normal text-white">3 Days to go</p>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="flex justify-center">
-                        <p class="text-white text-base font-normal">10 Juni - 1 Agustus 2021</p>
-                    </div>
-                </div>
+            <div class="block md:hidden lg:hidden">
+                <img src="/src/img/fixed-timeline-responsive.png" alt="">
             </div>
 
         </div>
 
-
-        <div class="lg:flex lg:justify-center pt-[58px]">
-
-            <div class="lg:w-[987px] bg-[#ACACAC] h-2.5 relative">
-                <div class="lg:absolute lg:-bottom-[8px]">
-                    <img src="/src/img/arrow-retro-up-succesful.png" alt="" class="w-14 h-14">
-                </div>
-                <div class="lg:absolute lg:-top-[8px] lg:left-[200px]">
-                    <img src="/src/img/arrow-retro-down.png" alt="" class="w-14 h-14">
-                </div>
-                <div class="lg:absolute lg:-bottom-[8px] lg:left-[370px]">
-                    <img src="/src/img/arrow-retro-up.png" alt="" class="w-14 h-14">
-                </div>
-                <div class="lg:absolute lg:-top-[8px] lg:left-[550px]">
-                    <img src="/src/img/arrow-retro-down.png" alt="" class="w-14 h-14">
-                </div>
-                <div class="lg:absolute lg:-bottom-[8px] lg:left-[730px]">
-                    <img src="/src/img/arrow-retro-up.png" alt="" class="w-14 h-14">
-                </div>
-                <div class="lg:absolute lg:-top-[8px] lg:right-[0px]">
-                    <img src="/src/img/arrow-retro-down.png" alt="" class="w-14 h-14">
-                </div>
-                <div class="bg-[#13AF6B] h-2.5" style="width: 15%"></div>
-            </div>
-
-
-        </div>
-
-        <div class="lg:flex lg:space-x-[132px] lg:ms-[340px]">
-
-            <div class="pt-[81px] w-[232px]">
-                <div class="">
-                    <div class="flex justify-center">
-                        <p class="text-white text-2xl font-semibold">Grand Opening</p>
-                    </div>
-                </div>
-                <div class="w-[235px] h-[87px] flex justify-center items-center my-[15px]"
-                    style="background-image: url(/src/img/banner.svg);">
-                    <div class="">
-                        <p class="text-2xl font-normal text-white">3 Days to go</p>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="flex justify-center">
-                        <p class="text-white text-base font-normal">10 Juni - 1 Agustus 2021</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pt-[81px] w-[232px]">
-                <div class="">
-                    <div class="flex justify-center">
-                        <p class="text-white text-2xl font-semibold">Pengumuman Finalis</p>
-                    </div>
-                </div>
-                <div class="w-[235px] h-[87px] flex justify-center items-center my-[15px]"
-                    style="background-image: url(/src/img/banner.svg);">
-                    <div class="">
-                        <p class="text-2xl font-normal text-white">3 Days to go</p>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="flex justify-center">
-                        <p class="text-white text-base font-normal">10 Juni - 1 Agustus 2021</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pt-[81px] w-[232px]">
-                <div class="">
-                    <div class="flex justify-center">
-                        <p class="text-white text-2xl font-semibold">Awarding</p>
-                    </div>
-                </div>
-                <div class="w-[235px] h-[87px] flex justify-center items-center my-[15px]"
-                    style="background-image: url(/src/img/banner.svg);">
-                    <div class="">
-                        <p class="text-2xl font-normal text-white">3 Days to go</p>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="flex justify-center">
-                        <p class="text-white text-base font-normal">10 Juni - 1 Agustus 2021</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </section> -->
+    </section>
 
     <!-- Timeline Ends -->
 
     <!-- Contact Person Starts -->
 
-    <section id="contactPerson" class="h-[100vh] w-screen bg-[#0D1727]">
+    <section id="contactPerson" class="lg:h-[100vh] md:h-[70vh] h-[100vh] w-screen bg-[#0D1727]">
 
         <div class="pt-[125px]">
 
             <div class="flex justify-center">
                 <div class="">
-                    <p class="text-white lg:text-[50px] text-xl font-bold">Contact Person</p>
+                    <p class="text-white lg:text-[50px] text-2xl font-bold text-center">Contact Person</p>
+                    <p class="text-white lg:text-[28px] text-lg font-normal mt-[6px] lg:mt-[10px] text-center">Click to get in touch!</p>
                 </div>
             </div>
 
@@ -380,14 +250,16 @@
 
     <!-- Contact Person Ends -->
 
+
+
     <!-- Partnership Starts -->
 
-    <section id="partnership" class="h-[80vh] bg-[#0D1727]">
+    <!-- <section id="partnership" class="h-[80vh] bg-[#0D1727]">
 
         <div class="pt-[125px]">
 
             <div class="flex justify-center">
-                <div class="">
+                 <div class="">
                     <p class="text-white lg:text-[50px] text-xl font-bold">PARTNERSHIP</p>
                 </div>
             </div>
@@ -396,7 +268,7 @@
 
         </div>
 
-    </section>
+    </section> -->
 
     <!-- Partnership Ends -->
 
@@ -434,6 +306,64 @@
     <!-- Footer Ends -->
 
 
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const banner1 = document.getElementById('banner1');
+            const banner2 = document.getElementById('banner2');
+            const banner3 = document.getElementById('banner3');
+            const banner4 = document.getElementById('banner4');
+            const banner5 = document.getElementById('banner5');
+            const banner6 = document.getElementById('banner6');
+
+            const arrow1 = document.getElementById('arrow-1');
+            const arrow2 = document.getElementById('arrow-2');
+            const arrow3 = document.getElementById('arrow-3');
+            const arrow4 = document.getElementById('arrow-4');
+            const arrow5 = document.getElementById('arrow-5');
+            const arrow6 = document.getElementById('arrow-6');
+
+            const progress = document.getElementById('progressBar');
+            const progWidth = progress.getAttribute('style')
+            const btn = document.getElementById('btn-click');
+            let progressValue = 0
+
+            // const today = new Date().getDate();
+            // const dueDate = new Date('2023-12-31 23:59:59').getDate();
+
+            btn.addEventListener('click', function () {
+                if (progressValue < 88) {
+                    progressValue += 16; // Increase by 25% on each click
+                    progress.style.width = progressValue + '%';
+
+                    if (progressValue === 16) {
+                        banner2.style.backgroundImage = 'url(/src/img/banner-succesful.png)';
+                        arrow2.setAttribute('src', '/src/img/arrow-retro-down-succesful.png');
+                    }
+
+                    if (progressValue === 32) {
+                        banner3.style.backgroundImage = 'url(/src/img/banner-succesful.png)';
+                        arrow3.setAttribute('src', '/src/img/arrow-retro-up-succesful.png');
+                    }
+
+                    if (progressValue === 48) {
+                        banner4.style.backgroundImage = 'url(/src/img/banner-succesful.png)';
+                        arrow4.setAttribute('src', '/src/img/arrow-retro-down-succesful.png');
+                    }
+
+                    if (progressValue === 64) {
+                        banner5.style.backgroundImage = 'url(/src/img/banner-succesful.png)';
+                        arrow5.setAttribute('src', '/src/img/arrow-retro-up-succesful.png');
+                    }
+
+                    if (progressValue === 80) {
+                        banner6.style.backgroundImage = 'url(/src/img/banner-succesful.png)';
+                        arrow6.setAttribute('src', '/src/img/arrow-retro-down-succesful.png');
+                    }
+                }
+
+            });
+        })
+    </script> -->
     <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
 
