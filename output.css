@@ -1109,11 +1109,6 @@ input:checked + .toggle-bg {
           margin-inline-start: 160px;
 }
 
-.ms-\[30px\] {
-  -webkit-margin-start: 30px;
-          margin-inline-start: 30px;
-}
-
 .mt-0 {
   margin-top: 0px;
 }
@@ -1182,16 +1177,16 @@ input:checked + .toggle-bg {
   margin-top: 56px;
 }
 
+.mt-\[59px\] {
+  margin-top: 59px;
+}
+
 .mt-\[65px\] {
   margin-top: 65px;
 }
 
 .mt-\[6px\] {
   margin-top: 6px;
-}
-
-.mt-\[59px\] {
-  margin-top: 59px;
 }
 
 .block {
@@ -1254,10 +1249,6 @@ input:checked + .toggle-bg {
   height: 100vh;
 }
 
-.h-\[1034px\] {
-  height: 1034px;
-}
-
 .h-\[130vh\] {
   height: 130vh;
 }
@@ -1268,10 +1259,6 @@ input:checked + .toggle-bg {
 
 .h-\[30px\] {
   height: 30px;
-}
-
-.h-\[476px\] {
-  height: 476px;
 }
 
 .h-\[550px\] {
@@ -1703,17 +1690,13 @@ input:checked + .toggle-bg {
   padding-left: 0.75rem;
 }
 
-.pl-\[24px\] {
-  padding-left: 24px;
-}
-
 .pr-4 {
   padding-right: 1rem;
 }
 
-.ps-\[127px\] {
-  -webkit-padding-start: 127px;
-          padding-inline-start: 127px;
+.ps-\[30px\] {
+  -webkit-padding-start: 30px;
+          padding-inline-start: 30px;
 }
 
 .pt-16 {
@@ -1742,24 +1725,6 @@ input:checked + .toggle-bg {
 
 .pt-\[80px\] {
   padding-top: 80px;
-}
-
-.ps-\[\] {
-  -webkit-padding-start: ;
-          padding-inline-start: ;
-}
-
-.ps-\[30px\] {
-  -webkit-padding-start: 30px;
-          padding-inline-start: 30px;
-}
-
-.pb-\[\] {
-  padding-bottom: ;
-}
-
-.pb-\[100px\] {
-  padding-bottom: 100px;
 }
 
 .text-center {
@@ -2213,32 +2178,6 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 1024px) {
-  .lg\:absolute {
-    position: absolute;
-  }
-
-  .lg\:-bottom-\[100px\] {
-    bottom: -100px;
-  }
-
-  .lg\:left-\[610px\] {
-    left: 610px;
-  }
-
-  .lg\:top-\[60px\] {
-    top: 60px;
-  }
-
-  .lg\:ms-\[100px\] {
-    -webkit-margin-start: 100px;
-            margin-inline-start: 100px;
-  }
-
-  .lg\:ms-\[156px\] {
-    -webkit-margin-start: 156px;
-            margin-inline-start: 156px;
-  }
-
   .lg\:mt-0 {
     margin-top: 0px;
   }
@@ -2253,10 +2192,6 @@ input:checked + .toggle-bg {
 
   .lg\:mt-\[20px\] {
     margin-top: 20px;
-  }
-
-  .lg\:mt-\[59px\] {
-    margin-top: 59px;
   }
 
   .lg\:mt-\[80px\] {
@@ -2301,10 +2236,6 @@ input:checked + .toggle-bg {
 
   .lg\:h-\[67px\] {
     height: 67px;
-  }
-
-  .lg\:h-\[700px\] {
-    height: 700px;
   }
 
   .lg\:h-\[80vh\] {
